@@ -1,2 +1,2 @@
 # coding-solutions
-my comp. coding problem solutions 
+my competitive coding problems' solutions 
