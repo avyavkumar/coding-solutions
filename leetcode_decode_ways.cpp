@@ -12,7 +12,8 @@ public:
         if (n == 1) return 1;
         int pre2 = 1, pre1 = 1;
         int cur;
-        for (int i = 1; i < n; ++i) {
+        for (int i = 1; i < n; ++i)
+        {
             cur = 0;
             int first = (s[i] - '0');
             int second = stoi(s.substr(i - 1, 2));

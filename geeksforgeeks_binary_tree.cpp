@@ -74,6 +74,7 @@ void invert_tree(node *root)
 
 long long int diameter(node *root)
 {
+    // TBD
     return 0;
 }
 

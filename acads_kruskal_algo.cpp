@@ -21,10 +21,7 @@ bool contains(int i, int j)
 
 bool sortingFunc(pair<pair<int, int>, int> &element1, pair<pair<int, int>, int> &element2)
 {
-    if (element2.second > element1.second)
-        return true;
-    else
-        return false;
+    return element2.second > element1.second;
 }
 
 void DFS(std::vector<std::vector<pair<int, int>>> graph, int x)
@@ -57,7 +54,7 @@ bool checkCycles(std::vector<std::vector<pair<int, int>>> graph)
     return cyclePresent;
 }
 
-std::vector<std::vector<pair<int, int>>> Kruskal(std::vector<std::vector<pair<int, int>>> graph)
+std::vector<std::vector<pair<int, int>>> runKruskal(std::vector<std::vector<pair<int, int>>> graph)
 {
     for (int i = 0; i < graph.size(); i++)
     {
